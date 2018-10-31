@@ -10,6 +10,10 @@
     "url": "https://github.com/DiegoZoracKy/"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DiegoZoracKy/s3-read-file-stream"
+  },
   "keywords": [
     "aws",
     "s3",
