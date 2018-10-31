@@ -1,6 +1,6 @@
 # s3-read-file-stream
 
-Reads a file from S3 via AWS SDK and prints its content to stdout via stream. Useful to quickly inspect large files without the need to download it entirely. CLI ready + support to gzip.
+Reads a file from S3 via stream using AWS SDK and prints its content to stdout, or to another writable stream. CLI ready + support to gzip. Useful to quickly inspect large files without the need to download it entirely.
 
 ## Goals
 
