@@ -1,0 +1,29 @@
+{
+  "name": "s3-read-file-stream",
+  "version": "0.0.1",
+  "description": "Reads a file from S3 via AWS SDK and prints its content to stdout, or to a writable stream, via stream. Useful to quickly inspect large files without the need to download it entirely. CLI ready.",
+  "main": "src/s3-read-file-stream",
+  "bin": "./bin/magicli.js",
+  "author": {
+    "name": "Diego ZoracKy",
+    "email": "diego.zoracky@gmail.com",
+    "url": "https://github.com/DiegoZoracKy/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "s3",
+    "read",
+    "file",
+    "stream",
+    "gzip",
+    "gz",
+    "cli",
+    "command-line"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.345.0",
+    "magicli": "^0.2.0",
+    "parse-s3-bucket-key": "0.0.1"
+  }
+}
