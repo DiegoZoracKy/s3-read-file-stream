@@ -20,19 +20,19 @@ S3 protocol is accepted as well (e.g. **s3:**//bucket-name/path/to/file.gz).
 #### via NPX
 
 ```bash
-    $ npx s3-read-file-stream --s3Path="https://s3.amazonaws.com/bucket-name/path/to/file.gz"
+$ npx s3-read-file-stream --s3Path="https://s3.amazonaws.com/bucket-name/path/to/file.gz"
 ```
 
 #### As a global module
 
 **install:**
 ```bash
-    $ npm install -g s3-read-file-stream
+$ npm install -g s3-read-file-stream
 ```
 
 **and use it:**
 ```bash
-    $ s3-read-file-stream --s3Path="https://s3.amazonaws.com/bucket-name/path/to/file.gz"
+$ s3-read-file-stream --s3Path="https://s3.amazonaws.com/bucket-name/path/to/file.gz"
 ```
 
 ### Node.js module
@@ -40,7 +40,7 @@ S3 protocol is accepted as well (e.g. **s3:**//bucket-name/path/to/file.gz).
 
 **install:**
 ```bash
-    $ npm install s3-read-file-stream
+$ npm install s3-read-file-stream
 ```
 
 ```javascript
