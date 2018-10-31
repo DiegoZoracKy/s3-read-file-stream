@@ -1,6 +1,6 @@
 {
   "name": "s3-read-file-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reads a file from S3 via stream using AWS SDK and prints its content to stdout, or to another writable stream. CLI ready + support to gzip. Useful to quickly inspect large files without the need to download it entirely.",
   "main": "src/s3-read-file-stream",
   "bin": "./bin/magicli.js",

@@ -1,5 +1,7 @@
 # s3-read-file-stream
 
+[![npm](https://img.shields.io/npm/v/s3-read-file-stream.svg)]() [![npm](https://img.shields.io/npm/l/s3-read-file-stream.svg)]()
+
 Reads a file from S3 via stream using AWS SDK and prints its content to stdout, or to another writable stream. CLI ready + support to gzip. Useful to quickly inspect large files without the need to download it entirely.
 
 ## Goals
